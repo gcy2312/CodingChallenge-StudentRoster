@@ -1,0 +1,24 @@
+#tagsList{
+  list-style: none;
+  margin-left:-20px ;
+}
+#tagListItem{
+  display: inline;
+  margin-inline-end: 5px;
+  margin-bottom: 10px;
+}
+#tagName{
+  background-color: #E3E3E3;
+  padding: 8px;
+  border-radius: 5px;
+}
+#tagInput{
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 20px;
+ margin-top: 15px;
+}
+#closeBtn{
+  margin-left:5px;
+}
