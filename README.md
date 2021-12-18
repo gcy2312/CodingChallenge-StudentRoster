@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+# Check out the live app here: https://gcy2312.github.io/CodingChallenge-StudentRoster
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
