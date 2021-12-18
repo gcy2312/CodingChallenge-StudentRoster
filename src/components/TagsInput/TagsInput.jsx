@@ -3,7 +3,7 @@ import './TagsInput.css';
 import TextField from '@mui/material/TextField';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 
-export function TagsInput({ studentData, displayStudents, setStudentTags, setDisplayStudents }) {
+export function TagsInput({ studentData, setStudentTags, setDisplayStudents }) {
   const [tags, setTags] = useState([]);
   studentData.tags = tags;
 

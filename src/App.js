@@ -38,11 +38,8 @@ const jsonReturn = {
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
-  const [tagSearchTerm, setTagSearchTerm] = useState('');
   const [displayStudents, setDisplayStudents] = useState([]);
   const [studentTags, setStudentTags] = useState([]);
-  const [filterStudents, setFilterStudents] = useState([]);
-  const [error, setError] = useState('');
 
   function calculateAverage(array) {
     var total = 0;
@@ -57,8 +54,6 @@ function App() {
   const handleChange = event => {
     setSearchTerm(event.target.value);
   };
-
-
 
   async function rawDataTransform() {
     let response = jsonReturn['students'];
@@ -85,7 +80,6 @@ function App() {
         student.firstName.toLowerCase().includes(searchTerm) || student.lastName.toLowerCase().includes(searchTerm)
     );
     setDisplayStudents(results);
-    setFilterStudents(results);
   }
 
   useEffect(() => {
@@ -97,7 +91,7 @@ function App() {
         filter();
       }
     });
-  }, [studentTags, searchTerm]);
+  }, [searchTerm]);
 
 
   return (

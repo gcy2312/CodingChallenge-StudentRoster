@@ -10,9 +10,6 @@ import RemoveRoundedIcon from '@mui/icons-material/RemoveRounded';
 
 export function Student({ studentData, students, setStudentTags, setDisplayStudents }) {
   let [isExpanded, setExpanded] = useState(false);
-  // const addedTags = tags => console.log(addedTags);
-  // console.log(studentData);
-
 
   return (
     <div className="student-card">
@@ -46,7 +43,6 @@ export function Student({ studentData, students, setStudentTags, setDisplayStude
 
               <TagsInput
                 studentData={studentData}
-                // addedTags={addedTags}
                 setStudentTags={setStudentTags}
                 setDisplayStudents={setDisplayStudents}
               />
