@@ -1,0 +1,54 @@
+ #card{
+   display: flex;
+   flex-direction: row;
+   /* width: 100%; */
+  }
+  #studentImg{
+    height: 150px;
+    border-radius: 50%;
+    border: 1.5px solid lightgray; 
+    margin: 25px 25px 25px 25px;    
+  }
+  #names{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+  }
+  #cardInfo{
+    margin-left: 20px;
+    line-height: 0.4;
+  }
+  #cardHeader{
+    display:flex;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+  #cardMainBody{
+    line-height:5px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  #detailsToggle{
+    text-align: end;
+  }
+  .expandedCard{
+    line-height:5px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  .addWidth{
+    margin-right: 15px;
+  }
+
+  @media all and (min-width: 300px) and (max-width: 750px) {
+     #studentImg{
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 20px;
+  } 
+  }
