@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/github.io/CodingChallenge-StudentRoster/static/css/main.11fcac1f.css",
+    "main.js": "/github.io/CodingChallenge-StudentRoster/static/js/main.e6715a3c.js",
+    "static/js/787.ac14e161.chunk.js": "/github.io/CodingChallenge-StudentRoster/static/js/787.ac14e161.chunk.js",
+    "index.html": "/github.io/CodingChallenge-StudentRoster/index.html",
+    "main.11fcac1f.css.map": "/github.io/CodingChallenge-StudentRoster/static/css/main.11fcac1f.css.map",
+    "main.e6715a3c.js.map": "/github.io/CodingChallenge-StudentRoster/static/js/main.e6715a3c.js.map",
+    "787.ac14e161.chunk.js.map": "/github.io/CodingChallenge-StudentRoster/static/js/787.ac14e161.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.11fcac1f.css",
+    "static/js/main.e6715a3c.js"
+  ]
+}
