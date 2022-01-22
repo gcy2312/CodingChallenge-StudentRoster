@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { Component } from 'react';
 import axios from '../../axios';
 import Card from 'react-bootstrap/Card';
 import './SearchPage.css';
@@ -80,9 +80,9 @@ export default class SearchPage extends Component {
   filterStudents = () => {
     if (this.state.value === "" && this.state.tagValue === "") {
       return this.state.Students
-    } else if (this.state.tagValue != "") {
+    } else if (this.state.tagValue !== "") {
       return this.tagFiltered()
-    } else if (this.state.value != "") {
+    } else if (this.state.value !== "") {
       return this.nameFiltered()
     }
   }
