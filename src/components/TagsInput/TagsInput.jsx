@@ -3,25 +3,21 @@ import './TagsInput.css';
 import TextField from '@mui/material/TextField';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 
-export function TagsInput({ studentData, setStudentTags, setDisplayStudents }) {
+const TagsInput = props => {
   const [tags, setTags] = useState([]);
-  studentData.tags = tags;
-
-  const addedStudentTags = displayStudents => displayStudents.map(v => ({ ...v, tags: tags }));
+  props.studentData.tags = tags;
 
   const addTags = (event) => {
     if (event.key === "Enter" && event.target.value !== "") {
       setTags([...tags, event.target.value]);
       event.target.value = "";
-      setStudentTags(tags);
-      setDisplayStudents(addedStudentTags);
+      props.selectedTags([...tags, event.target.value]);
+      console.log(props.studentData);
     }
   };
 
   const removeTags = index => {
     setTags([...tags.filter(tag => tags.indexOf(tag) !== index)]);
-    setStudentTags(tags);
-    setDisplayStudents(addedStudentTags);
   };
 
   return (
@@ -44,3 +40,4 @@ export function TagsInput({ studentData, setStudentTags, setDisplayStudents }) {
     </div>
   );
 };
+export default TagsInput;
