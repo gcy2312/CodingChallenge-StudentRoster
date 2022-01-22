@@ -6,7 +6,6 @@ import './StudentsList.css';
 
 export default class StudentsList extends Component {
 
-  // console.log(students);
 
 
   render() {
