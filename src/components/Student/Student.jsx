@@ -44,10 +44,10 @@ export default class Student extends Component {
         <Row>
 
           <Card id="card">
-            <Col md={2} sm={2} xs={{ order: 'first' }}>
+            <Col md={3} sm={3} xs={{ order: 'first' }}>
               <img id="studentImg" src={studentData.pic} alt="student avatar" />
             </Col> *
-            <Col md={10} sm={10} xs={10}>
+            <Col md={9} sm={9} xs={9}>
               <Card.Body>
 
                 <div id="cardHeader">
