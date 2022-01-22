@@ -1,5 +1,7 @@
 import React, { Component, useState } from 'react';
 import axios from '../../axios';
+import Card from 'react-bootstrap/Card';
+import './SearchPage.css';
 
 
 import StudentsList from '../StudentsList/StudentsList';
@@ -91,12 +93,16 @@ export default class SearchPage extends Component {
 
 
     return (
-      <div>
-        <NameSearch handleSearch={this.handleSearch}></NameSearch>
-        <TagSearch handleSearch={this.handleTagSearch}></TagSearch>
+      <div id="searchDiv" >
+        <Card id="mainSearch" >
+          <Card.Body>
+            <NameSearch handleSearch={this.handleSearch}></NameSearch>
+            <TagSearch handleSearch={this.handleTagSearch}></TagSearch>
 
-        <StudentsList students={filteredStudents}>
-        </StudentsList>
+            <StudentsList students={filteredStudents}>
+            </StudentsList>
+          </Card.Body>
+        </Card>
       </div>
     )
   }

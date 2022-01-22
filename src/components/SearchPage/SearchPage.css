@@ -1,0 +1,9 @@
+#mainSearch{
+  width:900px;
+  min-height:800px;
+}
+#searchDiv{
+ display:flex;
+  justify-content: center;
+  background-color: lightgray;
+}
