@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CodingChallenge-StudentRoster/static/css/main.11fcac1f.css",
-    "main.js": "/CodingChallenge-StudentRoster/static/js/main.ac154dd5.js",
+    "main.css": "/CodingChallenge-StudentRoster/static/css/main.4ce66df3.css",
+    "main.js": "/CodingChallenge-StudentRoster/static/js/main.fa590c62.js",
     "static/js/787.ac14e161.chunk.js": "/CodingChallenge-StudentRoster/static/js/787.ac14e161.chunk.js",
     "index.html": "/CodingChallenge-StudentRoster/index.html",
-    "main.11fcac1f.css.map": "/CodingChallenge-StudentRoster/static/css/main.11fcac1f.css.map",
-    "main.ac154dd5.js.map": "/CodingChallenge-StudentRoster/static/js/main.ac154dd5.js.map",
+    "main.4ce66df3.css.map": "/CodingChallenge-StudentRoster/static/css/main.4ce66df3.css.map",
+    "main.fa590c62.js.map": "/CodingChallenge-StudentRoster/static/js/main.fa590c62.js.map",
     "787.ac14e161.chunk.js.map": "/CodingChallenge-StudentRoster/static/js/787.ac14e161.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11fcac1f.css",
-    "static/js/main.ac154dd5.js"
+    "static/css/main.4ce66df3.css",
+    "static/js/main.fa590c62.js"
   ]
 }
